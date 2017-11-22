@@ -30,7 +30,7 @@ figcaption {
   height: 4em;
   line-height: 1.2em;
   padding: .25em;
-  transform: translateY(4em);
+  transform: translateY(-19em);
   background: #fff;
   /* background: rgba( 255, 255, 255, 0 ); */
   opacity: 0;
@@ -43,7 +43,9 @@ figcaption {
   above is then applied to `all` these hover styles, over 0.5 seconds.
 */
 figure:hover figcaption {
-  transform: translateY(0em);
+  transform: translateY(-15em);
   /* background: rgba( 255, 255, 255, .78 ); */
-  opacity: .78;
+  opacity: .88;
+  background: #c45;
+  color: white;
 }
